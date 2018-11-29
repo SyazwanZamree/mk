@@ -1,0 +1,23 @@
+{
+  "name": "mk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "lint": "neutrino lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@neutrinojs/airbnb-base": "^8.3.0",
+    "@neutrinojs/node": "^8.3.0",
+    "neutrino": "^8.3.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  }
+}
